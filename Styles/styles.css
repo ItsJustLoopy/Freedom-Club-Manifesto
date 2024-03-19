@@ -1,0 +1,68 @@
+/* css styling for h1 element*/
+h1 {
+    margin: 0;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+}
+
+h2 {
+    margin: 0;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    margin: 0;
+    padding: 4px;
+    color: rgb(0, 0, 0);
+}
+
+h4{
+    margin: 0;
+    padding: 4px;
+    color: rgb(79, 111, 82);
+
+}
+body{
+    background-color: rgb(229, 217, 182);
+}
+/*
+Beige: rgb(229, 217, 182)
+Green: rgb(164, 190, 123)
+Nature (Green 2): rgb(95, 141, 78)
+Earth (Green 3): rgb(40, 84, 48)
+*/
+
+/* unvisited link */
+a:link {
+    color: rgb(95, 141, 78);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(40, 84, 48);
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(95, 141, 78);
+    border-radius: 3px 3px 0px 3px;
+    text-decoration: none;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(164, 190, 123);
+    text-decoration: none;
+  }
+
+  #ImageLink {
+    a:hover{
+
+    background-color:rgb(229, 217, 182);
+    text-decoration: none;
+  }
+  }
